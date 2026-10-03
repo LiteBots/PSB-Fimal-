@@ -1,0 +1,16 @@
+{
+  "name": "psb-fimal-sklep",
+  "version": "1.0.0",
+  "description": "Sklep internetowy PSB Fimal – zamówienia online z odbiorem osobistym + zaawansowany panel administratora. Zero zależności (czysty Node.js 22 + wbudowane SQLite).",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "dev": "node --disable-warning=ExperimentalWarning --watch server.js",
+    "reset-db": "node --disable-warning=ExperimentalWarning scripts/reset-db.js"
+  },
+  "engines": {
+    "node": ">=22.13.0 <23"
+  },
+  "license": "UNLICENSED"
+}
